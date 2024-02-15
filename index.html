@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d2167237f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <image src="images/logo.png" class="logo">
+                <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </nav> 
+        <div id="mainpage">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-3">
+                        <img src="images/Background.jpg">
+                    </div>
+        <div class="header-text">
+            <p>Front-End Developer</p>
+            <h1>Hi,I'm <br><span>Priyanshi</span> Sharma <br>From <br>Lucknow</h1>
+        </div>
+    </div>
+    </div> 
+    <!---------------about section----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Mainimage.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>For me, Front-End development isn't just about pixels and lines, it's about crafting digital experiences that spark ignition. <br>
+                        Like a pyrotechnician weaving wonder with sparks My motivation isn't a fleeting spark, it's a roaring fire that fuels my passion for building websites that are not just functional,
+                         but captivating, intuitive, and leave a lasting impact.</p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Certification')">Certification</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                         </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Front-End Developer</span><br>Designing Interactive Webpages</li>
+                                <li><span>C/C++</li>
+                                    <li><span>Python</li>
+                                    <li>Presentation</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Certification">
+                            <ul>
+                                <li><span>Speech Competition</span><br>3<sup>rd</sup>Prize</li>
+                                <li><span>NPTEL Certificates</span><br>C Certificate<br>Spoken Tutorial</li>
+                                    <li><span>2 Stars Earned In Hacker Rank</li>
+                                      
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2024-Current</span><br>3 Year of B.Tech CSE</li>
+                                <li><span>10<sup><th></th></sup> Board CBSE </span><br>95.4%<br>M.G Convent School</li>
+                                    <li><span>12<sup>th</sup>Board CBSE</span><br>M.G Convent School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------services section------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Crafting captivating websites tailored to your brand. From sleek designs to seamless user experience,
+                         I specialize in creating eye-catching web solutions that elevate your online presence.
+                         Let's bring your vision to life.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>C/C++</h2>
+                    <p>Offering C/C++ development services for efficient, robust,
+                        and scalable software solutions.Let's build together.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Offering Python development solutions tailored to your needs.Efficient,reliable,
+                        and scalable programming expertise.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------portfolio section------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="hobbies-lists">
+                <div>
+                   <h2>Reading Books</h2>
+                    <p>"Passionate reader: Engaged in books, expanding knowledge,
+                        fostering creativity daily."</p>
+                </div>
+                <div>
+                    <h2>Writing Stories</h2>
+                     <p>"Crafting narratives, weaving worlds,
+                        penning tales;my storytelling sanctuary unfolds creatively."</p>
+                 </div>
+                 <div>
+                    <h2>Exploring Advancements</h2>
+                     <p>"Passionate explorer of cutting-edge advancements,
+                        constantly learning and evolving. Enthusiast."</p>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------contact section----------------->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+             <h1 class="sub-title">Contact Me</h1>
+             <p><i class="fa-regular fa-envelope"></i>sharmapriyanshi920@gmail.com</p><br>
+             <p><i class="fa-solid fa-phone-volume"></i>+91-7390000000</p>
+             <div class="social-icons">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/priyanshi-s-4870a4252"><i class="fa-brands fa-linkedin"></i></a>
+             </div><br>
+             <a href="images/mycv.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message..."></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Priyanshi Sharma.</p>
+    </div>
+  </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</body>
+</html>
